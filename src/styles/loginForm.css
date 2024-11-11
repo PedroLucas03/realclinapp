@@ -1,0 +1,112 @@
+.formulario {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  gap: 1.5rem;
+}
+
+.main-login{
+  display: flex;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #0d6efd;
+  border-radius: 1% 0 0 1%;
+
+}
+
+.logo img {
+  max-width: 90%;
+}
+
+.mobile-logo {
+  display: none;
+  position: absolute;
+  max-width: 80%;
+  top: 2rem;
+  left: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.input-login {
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 5px;
+  padding: 10px 15px;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  height: 40px;
+  width: 70%;
+}
+
+.botao-entrar {
+  cursor: pointer;
+  outline: 0;
+  color: #ede2e2;
+  background-color: #0d6efd;
+  line-height: 1.5em;
+  text-align: center;
+  border: 1px solid #0d6efd;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 5rem;
+  width: 70%
+}
+
+.botao-entrar:hover {
+  color: #fff;
+  background-color: #1c67d6;
+}
+
+.paragrafo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 15px;
+}
+
+a:link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.link-dois {
+  display: flex;
+  justify-content: end;
+  font-size: 15px;
+  padding-left: 50%;
+}
+
+@media (max-width: 768px) {
+ .formulario {
+    width: 100%;
+  }
+
+ .logo {
+    display: none;
+  }
+
+  input,
+ .botao-entrar {
+    width: 85%;
+  }
+
+ .mobile-logo {
+    display: block;
+  }
+}
