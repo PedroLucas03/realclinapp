@@ -38,7 +38,6 @@ const AdicionarEstagiario = ({ adicionarEstagiario }) => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <Sidebar />
         <div className="col cadastro">
           <Header />
           <div className="cadastro-dois">
